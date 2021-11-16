@@ -487,7 +487,7 @@ div.image img{
 .customer{
     width: 100vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .voice{
@@ -504,6 +504,12 @@ div.image img{
 
 .johnmarvel{
     width: 50%;
+}
+
+.inside1{
+    display:flex;
+    margin-left: 2rem;
+    align-items:center;
 }
 
 .inside{
