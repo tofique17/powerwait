@@ -1,0 +1,507 @@
+:root{
+    --main-background-color:#ece9e9;
+    --main-bttn-color: #025F44;
+    --primary-bckrnd-color:#6A6E6D;
+    --secondary-bckgrnd-color:#E4C2B1;
+    --section-bckgrnd-color:#EFEFEF;
+    font-family:  'Open Sans', sans-serif;
+}
+
+
+body{
+    margin:0;
+    padding:0;
+    width: 100vw;
+    font-size:62.5%;
+}
+
+nav.menu{
+    --nav-txt-color:#003D2B;
+     display:flex;
+     justify-content: space-around;
+     align-items:center;
+     background-color:white;
+}
+
+
+
+nav.menu li{
+    text-decoration: none;
+    display:inline-block;
+    padding-left:1rem;
+    font-size: 0.5rem;
+}
+
+nav.menu li a{
+    text-decoration:none;
+    color: var(--nav-txt-color);
+}
+
+nav.menu h1{
+    color: var(--nav-txt-color);
+    font-size:1rem;
+}
+
+#navbutton{
+    background-color:var(--main-bttn-color);
+    color:var(--main-background-color);
+    padding:1em;
+    border-radius: 0.8em;
+    cursor: pointer;
+    
+}
+
+#navbutton{
+    margin-left:1.2rem;
+}
+
+#navbutton a{
+    color:var(--main-background-color);
+    font-size: 1em;
+}
+
+#navbutton:hover a{
+    color:white;
+}
+section.reklamlar{
+    width: 100vw;
+    display:flex;
+}
+
+div.qiymet{
+    width: 50%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color:var(--secondary-bckgrnd-color);
+    
+}
+
+div.main{
+   width:70%; 
+   display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    
+}
+
+div.main h1{
+    font-weight: 900;
+    font-size:2rem;
+    width: 90%;
+    height: 90%;
+}
+
+div.main ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+div.main ul li{
+    font-size: 0.5rem;
+
+}
+
+div.main a{
+    text-decoration: none;
+    
+}
+
+
+div.image{
+    width: 50%;
+}
+
+div.image img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#qiymetbutton{
+    background-color:var(--main-bttn-color);
+    color:var(--main-background-color);
+    padding:0.7em;
+    border-radius: 0.8em;
+    cursor: pointer;
+    
+}
+
+#qiymetbutton:hover{
+    color:white;
+}
+
+.triple{
+    width: 100vw;
+    background-color:var(--section-bckgrnd-color);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    box-sizing: border-box;
+    align-self: center;
+}
+
+.part{
+    width: 28%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.part h1{
+    font-size: 0.6rem;
+    display:flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.part p{
+    font-size:0.5rem;
+    width: 70%;
+}
+
+.tariffbenefit{
+    width: 100vw;
+    display: flex;
+}
+
+.tariff{
+    width:50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left:10px;
+    
+}
+
+.tariffbox {
+    padding:1em;
+    margin-top: 2.8em;
+    border-radius: 0.7em;
+}
+
+.tariffbox h1{
+    font-size: 1.1rem;
+    font-weight: 900;
+    
+}
+
+.tariffbox a{
+    display:inline-block;
+    color:var(--main-bttn-color);
+}
+
+.tariffbox p{
+    font-size: 0.5rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-bottom: 20px;
+}
+
+.benefit{
+    width: 41.3%;
+    padding:5%;
+    background-color: var(--secondary-bckgrnd-color);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.benefitbox {
+    background-color:var(--section-bckgrnd-color);
+    padding:1em;
+    margin-top: -1em;
+    border-radius: 0.7em;
+}
+
+.benefitbox h1{
+    font-size: 1.1rem;
+    font-weight: 900;
+    
+}
+
+.benefitbox ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+.benefitbox a{
+    display:inline-block;
+}
+
+.benefitbox a{
+    text-decoration: none;
+    padding-top: 21px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefitbox h2{
+    font-size: 0.7rem;
+}
+
+.findiq{
+    width: 100vw;
+    background-color: var(--section-bckgrnd-color);
+    padding-top: 10px;
+    display:flex;
+}
+
+.container1{
+    width: 50%;
+}
+
+.nextchapter h3{
+    font-size: 0.5rem;
+}
+
+.nextchapter h3::after{
+    content:"from £5.29 per month";
+    color:gray;
+    font-size: 0.4rem;
+    display: block;
+}
+
+.nextchapter{
+    display:flex;
+    margin-left: 10px;
+}
+
+.nextchapter .image{
+    background-color: var(--primary-bckrnd-color);
+    margin:10px;
+    padding: 0.3em;
+    border-radius:0.6em;
+}
+
+.container2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.child{
+    margin-left:20px;
+    margin-right:25px;
+}
+
+.child h3{
+    font-size:0.8rem;
+}
+
+.child p{
+    font-size: 0.5rem;
+}
+
+
+.nextflex{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.coveredornot{
+    width: 100vw;
+    display:flex;
+}
+
+.covered{
+    width: 50%;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.covered ul{
+    list-style-image: url(./Tick_icon-2.svg);
+    font-size: 0.6rem;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.covered ul #birinci::after{
+    content:"When they are damaged, damaged, destroyed or stolen";
+    color:gray;
+    font-size:0.4rem;
+    display:block;
+}
+
+.covered ul #ikinci::after{
+    content:"Occupier's and personal liability";
+    color:gray;
+    font-size:0.4rem;
+    display:block;
+}
+
+.covered ul #ucuncu::after{
+    content:"Damage occurring at your home, provided they are not insured elsewhere";
+    color:gray;
+    font-size:0.4rem;
+    display:block;
+}
+
+.covered ul #dorduncu::after{
+    content:"Covers against loss or damage occurring at any location within the United Kingdom";
+    color:gray;
+    font-size:0.4rem;
+    display:block;
+}
+
+.covered ul #besinci::after{
+    content:"To maintain the security in your home";
+    color:gray;
+    font-size:0.4rem;
+    display:block;
+}
+
+.covered ul #altinci::after{
+    content:"damages to computers, laptops, phone equipment, digital accessories and office furniture";
+    color:gray;
+    font-size:0.4rem;
+    display:block;
+}
+
+
+.covered ul #sekkizinci::after{
+    content:"As a result of a covered damage to your computer";
+    color:gray;
+    font-size:0.4rem;
+    display:block;
+}
+
+.covered ul #doqquzuncu::after{
+    content:"When damaged due to a change in temperature";
+    color:gray;
+    font-size:0.4rem;
+    display:block;
+}
+
+.covered ul #onuncu::after{
+    content:"Damage to gifts and food in your home relating to a wedding or religious festival";
+    color:gray;
+    font-size:0.4rem;
+    display:block;
+}
+
+.covered ul #onbirinci::after{
+    content:"Damages caused by an escape of water or oil from any fixed domestic water or heatinginstallation";
+    color:gray;
+    font-size:0.4rem;
+    display:block;
+}
+
+.covered ul li span{
+    padding-right:auto;
+}
+
+
+
+.notcovered{
+    width: 50%;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.notcovered ul{
+    list-style-image: url(./Cross_icon-6.svg);
+    font-size: 0.6rem;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.notcovered ul #birinci1::after{
+    content:"Like wear and tear, rust, rot, fungus, mould";
+    color:gray;
+    font-size:0.4rem;
+    display:block;
+}
+
+.notcovered ul #ikinci1::after{
+    content:"Including vermin, but also your own pets";
+    color:gray;
+    font-size:0.4rem;
+    display:block;
+}
+
+.notcovered ul #ucuncu1::after{
+    content:"To items that are not stored within a building of stand construction";
+    color:gray;
+    font-size:0.4rem;
+    display:block;
+}
+
+.notcovered ul #dorduncu1::after{
+    content:"Damage arising from or in connection to your Business, trade or profession";
+    color:gray;
+    font-size:0.4rem;
+    display:block;
+}
+
+.notcovered ul #besinci1::after{
+    content:"Including faulty materials, defective design or user-related errors";
+    color:gray;
+    font-size:0.4rem;
+    display:block;
+}
+
+.notcovered ul #altinci1::after{
+    content:"As stated in your schedule";
+    color:gray;
+    font-size:0.4rem;
+    display:block;
+}
+
+.ratings{
+    width: 100vw;
+    display:flex;
+    justify-content: space-evenly;
+    background-color: var(--section-bckgrnd-color);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.ratings h2{
+    font-size: 0.7rem;
+}
+
+.googleplay{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.applestore{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ratings a{
+    color:var(--main-bttn-color);
+}
+
+.customer{
+    width: 100vw;
+    display: flex;
+}
+
+.voice{
+    width: 50%;
+}
+
+.voice p{
+    color:gray;
+}
+
+.voice h2{
+    font-size: 0.8rem;
+}
+
+.johnmarvel{
+    width: 50%;
+}
+
