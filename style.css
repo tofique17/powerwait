@@ -464,6 +464,7 @@ div.image img{
 
 .ratings h2{
     font-size: 0.7rem;
+    color:var(--main-bttn-color);
 }
 
 .googleplay{
@@ -491,15 +492,16 @@ div.image img{
 }
 
 .voice{
-    width: 30%;
+    width: 40%;
 }
 
 .voice p{
     color:gray;
+    font-size: 0.5rem;
 }
 
 .voice h2{
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .johnmarvel{
@@ -510,6 +512,7 @@ div.image img{
     display:flex;
     margin-left: 2rem;
     align-items:center;
+    width: 50%;
 }
 
 .inside{
@@ -524,3 +527,91 @@ div.image img{
     font-size: 0.5rem;
 }
 
+.buttons{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:1rem;
+}
+
+.custimg{
+    width: 120px;
+    height: 70px;
+    background-color:#ADE6BB;
+    position: relative;
+    top: 1rem;
+}
+
+.custimg img{
+    padding-left: 13px;
+    position: absolute;
+    top:-10px;
+}
+
+.faqdesign{
+    width: 100vw;
+    background-color: var(--section-bckgrnd-color);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.faqdesign h1{
+    font-size: 1rem;
+    font-weight: 900;
+} 
+
+.qarsiliq{
+    display:flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.downarrows{
+    display:flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: center;
+    align-items:center;
+    box-sizing: border-box;
+}
+.downarrows img{
+    display:block;
+    padding-top: 14px;
+}
+
+.qarsiliq ul{
+    list-style-image: url(./Tick_icon-2.svg);
+    font-size: 0.6rem;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.qarsiliq ul li{
+    padding-top: 10px;
+}
+
+.download{
+    width: 100vw;
+    background-color: var(--secondary-bckgrnd-color);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.download img{
+    display:inline-block;
+}
+
+.download h1{
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.download h2{
+    font-size: 0.7rem;
+    font-weight: 200;
+}
