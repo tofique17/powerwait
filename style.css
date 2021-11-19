@@ -13,6 +13,7 @@ body{
     padding:0;
     width: 100vw;
     font-size:62.5%;
+    font-size:1rem;
 }
 
 nav.menu{
@@ -87,7 +88,7 @@ div.main{
 
 div.main h1{
     font-weight: 900;
-    font-size:2rem;
+    font-size:1.5rem;
     width: 90%;
     height: 90%;
 }
@@ -105,7 +106,11 @@ div.main ul li{
 
 div.main a{
     text-decoration: none;
-    
+    font-size: 0.8rem;
+}
+
+div.main h3{
+    font-size: 1rem;
 }
 
 
@@ -226,8 +231,13 @@ div.image img{
     padding:0;
 }
 
+.benefitbox ul li{
+    font-size: 0.8rem;
+}
+
 .benefitbox a{
     display:inline-block;
+    font-size: 0.7rem;
 }
 
 .benefitbox a{
@@ -312,6 +322,8 @@ div.image img{
     width: 50%;
     box-sizing: border-box;
     padding-left: 20px;
+    display: flex;
+    
 }
 
 .covered ul{
@@ -394,6 +406,19 @@ div.image img{
 
 .covered ul li span{
     padding-right:auto;
+}
+
+.downarrows1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    box-sizing: border-box;
+    margin-top: 70px;
+}
+
+.downarrows1 img{
+    padding: 7.8px;
 }
 
 
@@ -483,6 +508,7 @@ div.image img{
 
 .ratings a{
     color:var(--main-bttn-color);
+    font-size: 0.8rem;
 }
 
 .customer{
@@ -524,9 +550,16 @@ div.image img{
 }
 
 .johnmarvel h2{
-    font-size: 0.5rem;
+    font-size: 0.4rem;
 }
 
+.johnmarvel h1{
+    font-size: 1rem;
+}
+
+.johnmarvel p{
+    font-size: 0.7rem;
+}
 .buttons{
     display:flex;
     justify-content: space-around;
@@ -556,6 +589,7 @@ div.image img{
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .faqdesign h1{
@@ -615,3 +649,68 @@ div.image img{
     font-size: 0.7rem;
     font-weight: 200;
 }
+
+.footer-container{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container h1{
+    font-size: 1rem;
+    padding:0;
+    margin:10px;
+    color:var(--main-bttn-color);
+}
+
+.footer-container a{
+    font-size: 0.7rem;
+    text-decoration: none;
+    color:#333;
+}
+
+.footer-container ul{
+    list-style-type: none;
+    padding:0;
+    margin: 0;
+}
+
+.getourapp {
+display:flex;
+flex-direction: column;
+}
+
+.getourapp h1{
+    padding-top: 1rem;
+}
+
+.getourapp img{
+    margin:0;
+    padding:0;
+}
+
+.getourapp2{
+    margin: 0;
+    padding: 0;
+}
+
+.followus {
+    box-sizing: border-box;
+}
+
+.followus img{
+    padding-left: 8px;
+}
+
+
+.terms {
+  width: 100vw;
+}
+.terms h2 , p{
+    font-size: 0.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+
+
