@@ -13,11 +13,11 @@ body{
     padding:0;
     width: 100vw;
     font-size:62.5%;
-    font-size:1rem;
 }
 
 nav.menu{
     --nav-txt-color:#003D2B;
+    font-size: 1rem;
      display:flex;
      justify-content: space-around;
      align-items:center;
@@ -26,16 +26,18 @@ nav.menu{
 
 
 
+
 nav.menu li{
     text-decoration: none;
     display:inline-block;
     padding-left:1rem;
-    font-size: 0.5rem;
+  
 }
 
 nav.menu li a{
     text-decoration:none;
     color: var(--nav-txt-color);
+    font-size: 1rem;
 }
 
 nav.menu h1{
@@ -88,7 +90,7 @@ div.main{
 
 div.main h1{
     font-weight: 900;
-    font-size:1.5rem;
+    font-size:2.5rem;
     width: 90%;
     height: 90%;
 }
@@ -100,17 +102,17 @@ div.main ul{
 }
 
 div.main ul li{
-    font-size: 0.5rem;
+    font-size: 1rem;
 
 }
 
 div.main a{
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 div.main h3{
-    font-size: 1rem;
+    font-size: 1.7rem;
 }
 
 
@@ -154,16 +156,17 @@ div.image img{
 }
 
 .part h1{
-    font-size: 0.6rem;
+    font-size: 1rem;
     display:flex;
     align-items: center;
     margin-top: 20px;
 }
 
 .part p{
-    font-size:0.5rem;
+    font-size:0.9rem;
     width: 70%;
 }
+
 
 .tariffbenefit{
     width: 100vw;
@@ -180,13 +183,19 @@ div.image img{
 }
 
 .tariffbox {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     padding:1em;
-    margin-top: 2.8em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     border-radius: 0.7em;
+
 }
 
 .tariffbox h1{
-    font-size: 1.1rem;
+    font-size: 2rem;
     font-weight: 900;
     
 }
@@ -194,13 +203,17 @@ div.image img{
 .tariffbox a{
     display:inline-block;
     color:var(--main-bttn-color);
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
 }
 
 .tariffbox p{
-    font-size: 0.5rem;
+    font-size: 1rem;
     margin-block-start: 0;
     margin-block-end: 0;
     padding-bottom: 20px;
+    padding-left: 0;
 }
 
 .benefit{
@@ -220,7 +233,7 @@ div.image img{
 }
 
 .benefitbox h1{
-    font-size: 1.1rem;
+    font-size: 2rem;
     font-weight: 900;
     
 }
@@ -232,24 +245,24 @@ div.image img{
 }
 
 .benefitbox ul li{
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .benefitbox a{
     display:inline-block;
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
 
 .benefitbox a{
     text-decoration: none;
     padding-top: 21px;
-    display:flex;
+   display:flex;
     justify-content: center;
     align-items: center;
 }
 
 .benefitbox h2{
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
 
 .doublecontainer{
@@ -264,13 +277,13 @@ div.image img{
 }
 
 .nextchapter h3{
-    font-size: 0.5rem;
+    font-size: 0.9rem;
 }
 
 .nextchapter h3::after{
     content:"from £5.29 per month";
     color:gray;
-    font-size: 0.4rem;
+    font-size: 0.7rem;
     display: block;
 }
 
@@ -298,11 +311,12 @@ div.image img{
 }
 
 .child h3{
-    font-size:0.8rem;
+    font-size:1rem;
+    padding-left: 16px;
 }
 
 .child p{
-    font-size: 0.5rem;
+    font-size: 0.8rem;
 }
 
 
@@ -318,17 +332,20 @@ div.image img{
     display:flex;
 }
 
+.coveredornot h1{
+    font-size: 1.5rem;
+}
+
 .covered{
     width: 50%;
     box-sizing: border-box;
     padding-left: 20px;
     display: flex;
-    
 }
 
 .covered ul{
     list-style-image: url(./Tick_icon-2.svg);
-    font-size: 0.6rem;
+    font-size: 0.9rem;
     padding-left: 20px;
     margin-top: 10px;
 }
@@ -336,42 +353,42 @@ div.image img{
 .covered ul #birinci::after{
     content:"When they are damaged, damaged, destroyed or stolen";
     color:gray;
-    font-size:0.4rem;
+    font-size:0.7rem;
     display:block;
 }
 
 .covered ul #ikinci::after{
     content:"Occupier's and personal liability";
     color:gray;
-    font-size:0.4rem;
+    font-size:0.7rem;
     display:block;
 }
 
 .covered ul #ucuncu::after{
     content:"Damage occurring at your home, provided they are not insured elsewhere";
     color:gray;
-    font-size:0.4rem;
+    font-size:0.7rem;
     display:block;
 }
 
 .covered ul #dorduncu::after{
     content:"Covers against loss or damage occurring at any location within the United Kingdom";
     color:gray;
-    font-size:0.4rem;
+    font-size:0.7rem;
     display:block;
 }
 
 .covered ul #besinci::after{
     content:"To maintain the security in your home";
     color:gray;
-    font-size:0.4rem;
+    font-size:0.7rem;
     display:block;
 }
 
 .covered ul #altinci::after{
     content:"damages to computers, laptops, phone equipment, digital accessories and office furniture";
     color:gray;
-    font-size:0.4rem;
+    font-size:0.7rem;
     display:block;
 }
 
@@ -379,28 +396,28 @@ div.image img{
 .covered ul #sekkizinci::after{
     content:"As a result of a covered damage to your computer";
     color:gray;
-    font-size:0.4rem;
+    font-size:0.7rem;
     display:block;
 }
 
 .covered ul #doqquzuncu::after{
     content:"When damaged due to a change in temperature";
     color:gray;
-    font-size:0.4rem;
+    font-size:0.7rem;
     display:block;
 }
 
 .covered ul #onuncu::after{
     content:"Damage to gifts and food in your home relating to a wedding or religious festival";
     color:gray;
-    font-size:0.4rem;
+    font-size:0.7rem;
     display:block;
 }
 
 .covered ul #onbirinci::after{
     content:"Damages caused by an escape of water or oil from any fixed domestic water or heatinginstallation";
     color:gray;
-    font-size:0.4rem;
+    font-size:0.7rem;
     display:block;
 }
 
@@ -414,11 +431,11 @@ div.image img{
     justify-content: center;
     align-items:center;
     box-sizing: border-box;
-    margin-top: 70px;
+    margin-top: 45px;
 }
 
 .downarrows1 img{
-    padding: 7.8px;
+    padding: 0.8rem;
 }
 
 
@@ -431,7 +448,7 @@ div.image img{
 
 .notcovered ul{
     list-style-image: url(./Cross_icon-6.svg);
-    font-size: 0.6rem;
+    font-size: 0.9rem;
     padding-left: 20px;
     margin-top: 10px;
 }
@@ -439,42 +456,42 @@ div.image img{
 .notcovered ul #birinci1::after{
     content:"Like wear and tear, rust, rot, fungus, mould";
     color:gray;
-    font-size:0.4rem;
+    font-size:0.7rem;
     display:block;
 }
 
 .notcovered ul #ikinci1::after{
     content:"Including vermin, but also your own pets";
     color:gray;
-    font-size:0.4rem;
+    font-size:0.7rem;
     display:block;
 }
 
 .notcovered ul #ucuncu1::after{
     content:"To items that are not stored within a building of stand construction";
     color:gray;
-    font-size:0.4rem;
+    font-size:0.7rem;
     display:block;
 }
 
 .notcovered ul #dorduncu1::after{
     content:"Damage arising from or in connection to your Business, trade or profession";
     color:gray;
-    font-size:0.4rem;
+    font-size:0.7rem;
     display:block;
 }
 
 .notcovered ul #besinci1::after{
     content:"Including faulty materials, defective design or user-related errors";
     color:gray;
-    font-size:0.4rem;
+    font-size:0.7rem;
     display:block;
 }
 
 .notcovered ul #altinci1::after{
     content:"As stated in your schedule";
     color:gray;
-    font-size:0.4rem;
+    font-size:0.7rem;
     display:block;
 }
 
@@ -488,8 +505,15 @@ div.image img{
 }
 
 .ratings h2{
-    font-size: 0.7rem;
+    font-size: 1rem;
+    margin-top: 0;
+    padding-top: 0;
     color:var(--main-bttn-color);
+}
+
+.ulduzlar img{
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .googleplay{
@@ -519,15 +543,17 @@ div.image img{
 
 .voice{
     width: 40%;
+    padding-bottom: 40px;
 }
 
 .voice p{
     color:gray;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
+    padding-left: 0;
 }
 
 .voice h2{
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .johnmarvel{
@@ -550,15 +576,16 @@ div.image img{
 }
 
 .johnmarvel h2{
-    font-size: 0.4rem;
-}
-
-.johnmarvel h1{
     font-size: 1rem;
 }
 
+.johnmarvel h1{
+    font-size: 1.5rem;
+}
+
 .johnmarvel p{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+    padding-left: 0;
 }
 .buttons{
     display:flex;
@@ -593,7 +620,7 @@ div.image img{
 }
 
 .faqdesign h1{
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 900;
 } 
 
@@ -613,7 +640,7 @@ div.image img{
 }
 .downarrows img{
     display:block;
-    padding-top: 14px;
+    padding:0.65rem;
 }
 
 .qarsiliq ul{
@@ -625,6 +652,7 @@ div.image img{
 
 .qarsiliq ul li{
     padding-top: 10px;
+    font-size: 1rem;
 }
 
 .download{
@@ -641,12 +669,12 @@ div.image img{
 }
 
 .download h1{
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 900;
 }
 
 .download h2{
-    font-size: 0.7rem;
+    font-size: 1rem;
     font-weight: 200;
 }
 
@@ -657,14 +685,14 @@ div.image img{
 }
 
 .footer-container h1{
-    font-size: 1rem;
-    padding:0;
+    font-size: 1.4rem;
+    padding-left:0;
     margin:10px;
     color:var(--main-bttn-color);
 }
 
 .footer-container a{
-    font-size: 0.7rem;
+    font-size: 1rem;
     text-decoration: none;
     color:#333;
 }
@@ -690,8 +718,8 @@ flex-direction: column;
 }
 
 .getourapp2{
-    margin: 0;
-    padding: 0;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .followus {
@@ -707,9 +735,10 @@ flex-direction: column;
   width: 100vw;
 }
 .terms h2 , p{
-    font-size: 0.5rem;
+    font-size: 1rem;
     padding-right: 1rem;
     padding-left: 1rem;
+    color: gray;
 }
 
 
